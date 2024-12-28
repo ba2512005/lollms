@@ -1,8 +1,6 @@
 from pathlib import Path
 from typing import Union
 
-setuptools = ...  # assuming you've imported setuptools correctly
-
 README_MD_FILE = "README.md"
 REQUIREMENTS_TXT_FILE = "requirements.txt"
 REQUIREMENTS_DEV_TXT_FILE = "requirements_dev.txt"
@@ -47,7 +45,7 @@ setuptools.setup(
     },
     extras_require={"dev": requirements_dev},
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.11",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
