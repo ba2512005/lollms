@@ -45,7 +45,6 @@ setuptools.setup(
     entry_points={
         'console_scripts': ['lollms-elf = lollms.server.elf:main'],
     },
-    extras_require={"dev": requirements_dev},
     classifiers=[
         "Programming Language :: Python :: 3.11",
         "License :: OSI Approved :: Apache Software License",
