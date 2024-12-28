@@ -1,6 +1,8 @@
 from pathlib import Path
 from typing import Union
 
+import setuptools
+
 README_MD_FILE = "README.md"
 REQUIREMENTS_TXT_FILE = "requirements.txt"
 REQUIREMENTS_DEV_TXT_FILE = "requirements_dev.txt"
